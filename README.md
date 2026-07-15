@@ -140,3 +140,4 @@ curl -i "http://localhost:8080/api/transactions/{id}/convert?currency=EUR"
 - If the conversion endpoint returns an exchange-rate error, verify Treasury API connectivity and data availability for the requested currency/date.
 
 System.out.println("Teste da aula Magalu");
+testando, oi
