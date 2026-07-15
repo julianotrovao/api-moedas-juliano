@@ -1,5 +1,6 @@
 # Purchase Transaction API
 #projeto java
+Matheus Rodrigues Barbosa
 Spring Boot microservice to:
 
 - store purchase transactions in USD;
@@ -137,3 +138,5 @@ curl -i "http://localhost:8080/api/transactions/{id}/convert?currency=EUR"
 
 - H2 is configured in-memory (`jdbc:h2:mem`), so data is lost when the application restarts.
 - If the conversion endpoint returns an exchange-rate error, verify Treasury API connectivity and data availability for the requested currency/date.
+
+System.out.println("Teste da aula Magalu");
